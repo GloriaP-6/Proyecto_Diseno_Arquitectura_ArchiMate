@@ -1,1 +1,0 @@
-# Proyecto_Dise-o_Arquitectura_ArchiMate-
