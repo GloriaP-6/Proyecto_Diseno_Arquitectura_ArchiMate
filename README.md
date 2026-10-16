@@ -862,23 +862,3 @@ V10 utiliza relaciones de `Realization`, `Influence`, `Serving` y `Assignment` s
 
 ---
 
-## Verificación final antes de entregar
-
-- [ ] El archivo `modelo/Modelo_Yates_Final.archimate` abre sin errores.
-- [ ] V1–V11 están presentes en el modelo.
-- [ ] Las vistas auxiliares V4b–V4e, V8b–V8c y V9b están presentes si permanecen en el modelo final.
-- [ ] Las doce vistas V6.1–V6.12 están presentes.
-- [ ] Todas las imágenes existen en `/vistas` con los nombres usados por este README.
-- [ ] Cada imagen se visualiza correctamente en GitHub.
-- [ ] V8 final no contiene el Shared Kernel Liquidación–Pagos eliminado en la corrección.
-- [ ] V8c distingue correctamente Separate Ways, ACL manual, acceso directo de actores y fuera de alcance.
-- [ ] A07 y A10 son las únicas integraciones externas reales del alcance final.
-- [ ] A13 Meteorología aparece fuera de alcance.
-- [ ] V11 usa elementos ArchiMate para eventos y lenguaje ubicuo, no únicamente cuadros de texto.
-- [ ] V10 muestra trazabilidad vertical desde motivación/capacidad hasta componentes de aplicación.
-- [ ] La carpeta `/entrevista` contiene guion, prompt/rol, conversación completa y análisis de hallazgos.
-- [ ] La tabla de aportes coincide con los commits reales.
-- [ ] Cada integrante tiene commits propios verificables.
-- [ ] El vocabulario del README coincide con V7 y no mezcla términos entre contextos.
-
-[Volver al índice](#indice)
