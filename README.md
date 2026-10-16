@@ -836,16 +836,56 @@ V10 utiliza relaciones de `Realization`, `Influence`, `Serving` y `Assignment` s
 ---
 
 <a id="tabla-de-aportes"></a>
-# Tabla de aportes
+## Tabla de aportes
 
-> Esta tabla debe corresponder con el historial real de commits. Reemplazar “Persona A/B” por los nombres reales y ajustar la descripción si el historial demuestra un reparto más específico.
+Cada fila indica qué vista construyó cada integrante.
 
-| Integrante | Aporte principal | Evidencia esperada en Git |
+### Resumen por integrante
+
+| Integrante | Fases | Vistas |
 |---|---|---|
-| Persona A | Fases 1, 2 y 5: construcción y/o análisis de V1, V2, V3, V4, V8, V9 y vistas auxiliares asignadas. | Commits sobre imágenes, análisis y ajustes de esas vistas. |
-| Persona B | Fases 1, 2 y 5: construcción y/o análisis de V1, V2, V3, V4, V8, V9 y vistas auxiliares asignadas. | Commits sobre imágenes, análisis y ajustes de esas vistas. |
-| Isabella Gutiérrez Montoya | Pareja 2: Fases 3, 4 y 6; dominios, lenguaje ubicuo, agregados/comandos/eventos, Canvas y revisión cruzada. | Commits sobre V5, V6, V7, V11, análisis e imágenes correspondientes. |
-| Thomas Osorio Passos | Pareja 2: Fases 3, 4 y 6; integración del repositorio, README, organización de `/vistas`, revisión y cierre. | Commits de README, estructura del repo, imágenes asignadas, análisis y correcciones finales. |
+| **Gloria** | 1, 2 y 5 | V1, V2, V3, V4b, V8, V8b |
+| **Juan Sebastián** | 2, 5 | V4, V4c, V4d, V4e, V9, V9b, V8c |
+| **Isabella** | 3, 4 y 6 | V5, V7 (Core y Generic), V6.1, V6.3, V6.5, V6.7, V6.9, V6.11, V11 |
+| **Thomas** | 3, 4 y transversal | V10, V7 (Supporting y Términos polisémicos), V6.2, V6.4, V6.6, V6.8, V6.10, V6.12 |
+
+### Detalle por vista
+
+| Fase | Vista | Integrante |
+|---|---|---|
+| 1 | V1 — Motivación | Gloria |
+| 1 | V2 — Mapa de capacidades | Gloria |
+| 1 | V3 — Cadena de valor y proceso E2E | Gloria |
+| 2 | V4 — Descomposición de servicios | Juan Sebastián |
+| 2 | V4b — Servicios, roles, funciones y contratos | Gloria |
+| 2 | V4c — Servicios fundamentales e infraestructura | Juan Sebastián |
+| 2 | V4d — Trazabilidad servicio–capacidad–requisito–meta | Juan Sebastián |
+| 2 | V4e — Trazabilidad de servicios a capacidades | Juan Sebastián |
+| 2 | V9 — Interoperabilidad y anticorrupción | Juan Sebastián |
+| 2 | V9b — Vínculo vertical y contratos de integración | Juan Sebastián |
+| 3 | V5 — Dominios y clasificación | Isabella |
+| 3 | V7 — Lenguaje ubicuo Core | Isabella |
+| 3 | V7 — Lenguaje ubicuo Generic | Isabella |
+| 3 | V7 — Lenguaje ubicuo Supporting | Thomas |
+| 3 | V7 — Términos polisémicos | Thomas |
+| 4 | V6.1 — Gestión del Arrendamiento | Isabella |
+| 4 | V6.2 — Decisión de Riesgo | Thomas |
+| 4 | V6.3 — Propietarios y Yates | Isabella |
+| 4 | V6.4 — Marinas y Operación Náutica | Thomas |
+| 4 | V6.5 — Incidentes y Siniestros | Isabella |
+| 4 | V6.6 — Tarifación y Cotización | Thomas |
+| 4 | V6.7 — Admisibilidad y Cumplimiento | Isabella |
+| 4 | V6.8 — Seguimiento Operacional | Thomas |
+| 4 | V6.9 — Liquidación Económica | Isabella |
+| 4 | V6.10 — Reputación y Calidad | Thomas |
+| 4 | V6.11 — Pagos y Facturación | Isabella |
+| 4 | V6.12 — Analítica y Reportes | Thomas |
+| 5 | V8 — Mapa de contextos | Gloria |
+| 5 | V8b — Flujos de eventos entre contextos | Gloria |
+| 5 | V8c — Fronteras externas y tratamiento actual | Juan Sebastián |
+| 6 | V11 — Canvas de Gestión del Arrendamiento | Isabella |
+| Transversal | V10 — Trazabilidad vertical | Thomas |
+
 
 ---
 
